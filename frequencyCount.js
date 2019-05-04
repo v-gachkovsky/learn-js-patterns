@@ -44,12 +44,12 @@ function same(arrLeft, arrRight) {
 
 benchmark(
   badSame,
-  makeParams(100, 1000),
-  makeParams(100,1000,true)
+  makeParams(1, 10),
+  makeParams(1,10,true)
 );
 
 benchmark(
   same,
-  makeParams(100, 1000),
-  makeParams(100,1000,true)
+  makeParams(1, 10),
+  makeParams(1,10,true)
 );
