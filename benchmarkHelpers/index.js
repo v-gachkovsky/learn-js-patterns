@@ -1,8 +1,8 @@
 import microtime from 'microtime';
 
-function benchmark(targetFunction, ...args) {
+function benchmark(targetFunction, arrLeft, arrRight) {
   const startTimestamp = microtime.now();
-  const result = targetFunction(...args);
+  const result = targetFunction(arrLeft, arrRight);
   const endTimestamp = microtime.now();
 
   console.log(`${targetFunction.name} spend ${endTimestamp - startTimestamp} milliseconds. Result is ${result}`)
