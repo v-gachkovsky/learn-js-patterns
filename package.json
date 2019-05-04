@@ -1,0 +1,22 @@
+{
+  "name": "learn-js-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "frequencyCount.js",
+  "scripts": {
+    "start": "babel-node frequencyCount.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^3.0.0"
+  }
+}
